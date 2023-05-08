@@ -1,0 +1,65 @@
+.container-header {
+    background-image: url(../../assets/Background1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 150vh;
+    width: 100%;
+    padding: 10px;
+    transition: background-image 2s;
+}
+
+.logo-prompt {
+    width: 100%;
+    height: 500px;
+}
+
+.prompts {
+    width: 250px;
+    height: 300px;
+}
+
+.prompt {
+    width: 100%;
+    height: auto;
+}
+
+.text-style {
+    font-size: 8em;
+    height: 220px;
+    text-align: center;
+}
+
+.ia-styles {
+    text-align: center;
+    width: 160px;
+    height: 110px;
+}
+ 
+.logo-wiki {
+    padding: 0;
+    height: 300px;
+    width: 400px;
+}
+
+@media screen and (max-width: 831px){
+    .logo-prompt {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text-style {
+        font-size: 6em;
+    }
+
+    .ia-styles {
+        margin-bottom: 20px;
+    }
+
+    .text-sm {
+        font-size: 14px;
+    }
+
+}
