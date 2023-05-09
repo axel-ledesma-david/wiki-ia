@@ -3,8 +3,8 @@ import '../Header/Header.css'
 import background1 from '../../assets/Background1.png'
 import background2 from '../../assets/background2.jpg'
 import logo from '../../assets/LOGO.svg'
-import { Search } from '../Search'
-import { Categories } from '../Categories'
+import { Search } from '../Search/Search'
+import { Categories } from '../Categories/Categories'
 
 const Header = () => {
 
@@ -19,8 +19,8 @@ const Header = () => {
     }, 60000)
 
     return (
-        <div className='container-header d-flex justify-content-center p-2 flex-column gap-2' id='header' >
-            <div className="logo-prompt d-flex justify-content-around mt-1">
+        <div className='container-header d-flex justify-content-center p-1 flex-column' id='header' >
+            <div className="logo-prompt d-flex justify-content-around align-items-center mt-1">
                 <img src={logo} alt="logo" className='logo-wiki' />    
                 <div className="prompts d-flex flex-column gap-3">
                     <div className="prompt rounded-3 bg-light d-flex align-items-center p-3">
