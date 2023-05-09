@@ -3,7 +3,8 @@ import '../Header/Header.css'
 import background1 from '../../assets/Background1.png'
 import background2 from '../../assets/background2.jpg'
 import logo from '../../assets/LOGO.svg'
-
+import { Search } from '../Search'
+import { Categories } from '../Categories'
 
 const Header = () => {
 
@@ -30,7 +31,10 @@ const Header = () => {
                     </div>
                 </div>
             </div>
+            <Search/>
+            <Categories/>
         </div>
+        
     )
 }
 
