@@ -17,7 +17,7 @@ export const Search = () => {
 
   return (
     <div className='DivS'>
-      <h2 className='title-search'>Busca o <button type="button" onClick={handleShow} data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-dark">Crea tu Tema</button></h2>
+      <h2 className='title-search'>Busca o <button type="button" onClick={handleShow} data-bs-toggle="modal" data-bs-target="#exampleModal" className="btn btn-success">Crea tu Tema</button></h2>
       <input type="text" id='search' placeholder='Search' />
       <FontAwesomeIcon icon={faSearch} className='icon' />
 

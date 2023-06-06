@@ -1,0 +1,27 @@
+.navbar{
+  background: #AFD3E2;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  text-transform: uppercase;
+}
+.navbar-nav{
+    width: auto;
+  justify-content: center;
+  margin: 0 auto;
+  position: relative; 
+}
+.nav-item{
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 5px;
+    margin-top: 10px;
+   
+    border-bottom: 1px solid darkblue;
+}
+.navbar-nav .nav-link:hover {
+    color: #0e7fe9;
+    font-size: 19px;
+    transition: 0.4s;
+  }

@@ -3,8 +3,7 @@ import '../Header/Header.css'
 import background1 from '../../assets/Background1.png'
 import background2 from '../../assets/background2.jpg'
 import logo from '../../assets/LOGO.svg'
-import { Search } from '../Search/Search'
-import { Categories } from '../Categories/Categories'
+
 
 const Header = () => {
 
@@ -22,17 +21,12 @@ const Header = () => {
         <div className='container-header d-flex justify-content-center p-1 flex-column' id='header' >
             <div className="logo-prompt d-flex justify-content-around align-items-center mt-1">
                 <img src={logo} alt="logo" className='logo-wiki' />    
-                <div className="prompts d-flex flex-column gap-3">
-                    <div className="prompt rounded-3 bg-light d-flex align-items-center p-3">
-                        <p className='text-dark text-center fw-semibold' >Imagen Generada por MidJourney</p>
-                    </div>
-                    <div className="prompt rounded-3 bg-light d-flex align-items-center p-3">
-                        <p className='text-sm text-dark text-center fw-semibold' >Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis mmodi repudiandae, numquam ea maiores!</p>
-                    </div>
-                </div>
             </div>
-            <Search/>
-            <Categories/>
+            <div>
+                <h1 className='h1'>Bienvenidos</h1>
+                <p className='p'>WIKI-IA una enciclopedia libre y colaborativa, todos los temas de tu interes en un solo lugar. </p>
+            </div>
+           
         </div>
         
     )

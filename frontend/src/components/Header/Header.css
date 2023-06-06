@@ -42,6 +42,17 @@
     height: 350px;
     width: 450px;
 }
+/* Estilos para el h1 y parrafos*/
+.h1{
+    font-size: 70px;
+    text-align: center;
+    color: #7B8FA6;
+}
+
+.p{
+    text-align: center;
+    font-size: 20px;
+}
 
 @media screen and (max-width: 831px){
     .logo-prompt {
