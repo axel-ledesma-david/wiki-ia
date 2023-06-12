@@ -30,7 +30,7 @@
     
     
 }
-input:focus{h: 20px;
+input:focus{/* h: 20px; */
     height: 20px;
     margin: 10px;
     border: 1px solid black;
@@ -50,6 +50,12 @@ input:focus{h: 20px;
     padding: 8px;
     color: #fff;
 }
+
+.btn-search {
+    height: 40px;
+    width: 40px;
+}
+
 
 /* estilos para tablet*/
 @media screen and (max-width: 768px){

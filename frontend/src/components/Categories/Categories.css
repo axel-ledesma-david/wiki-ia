@@ -1,3 +1,9 @@
 .card{
     margin-left: 2rem;
 }
+
+.container-categories {
+    padding: 10px;
+    width: 100%;
+    height: auto;
+}

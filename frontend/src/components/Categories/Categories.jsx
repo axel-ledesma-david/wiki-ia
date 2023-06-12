@@ -5,9 +5,9 @@ import "../Categories/Categories.css"
 
 export const Categories = () => {
   return (
-    <section>
-      <h2 className='text-center d-1'> Categorías más pulares </h2>
-      <div className="d-flex justify-content-center align-items-center " style={{ height: '30vh'}}>
+    <section className='container-categories' >
+      <h2 className='text-center d-1 mb-5'> Categorías más pulares </h2>
+      <div className="d-flex justify-content-center align-items-center" style={{ height: '30vh'}}>
       <Card className='card' style={{ width: '18rem' }}>
       <Card.Img variant="top" src="holder.js/100px180" />
       <Card.Body>
@@ -45,8 +45,5 @@ export const Categories = () => {
     </Card>
     </div>
     </section>
-    
-
-    
   )
 }
