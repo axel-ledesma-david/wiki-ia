@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../../components/Header/Header";
 import { Search } from "../../components/Search/Search";
+import NavBarHome from "../../components/Nav/NavBarHome";
 import { Categories } from "../../components/Categories/Categories";
 import "../Home/Home.css";
 import ListArticles from "../../components/ListArticles/ListArticles";
@@ -13,6 +14,7 @@ const Home = () => {
 
   return (
     <div className="container-home" >
+      <NavBarHome />
       <Header />
       <Search />
 
