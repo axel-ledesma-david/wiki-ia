@@ -1,6 +1,6 @@
 import React from 'react'
 import '../Header/Header.css'
-import background1 from '../../assets/Background1.png'
+import background1 from '../../assets/pexels-czapp-árpád-16103344.jpg'
 import background2 from '../../assets/background2.jpg'
 import logo from '../../assets/LOGO.svg'
 
@@ -13,9 +13,9 @@ const Header = () => {
 
     setInterval(() => {
         const image = images.shift()
-        document.querySelector('.container-header').style.backgroundImage = `url(${image})`
+        document.querySelector('.container-header').style.backgroundImage = `linear-gradient(rgba(84, 84, 122, 0.322), rgba(110, 110, 158, 0.267), rgba(125, 125, 160, 0.26)), url(${image})`
         images.push(image)
-    }, 60000)
+    }, 20000)
 
     return (
         <div className='container-header d-flex justify-content-center p-1 flex-column' id='header' >
